@@ -1,0 +1,82 @@
+<b>HTML 5 important Pointers</b>
+
+
+•	Main section - <main></main>. 
+•	Article section - <article></article>. This section contains most important content that the search engine looks into.
+•	Sub-content – Like side bar in the magazine. This can be put inside the aside tags. <aside></aside>
+•	For logical Grouping – we can use <section></section>.
+•	<header></header> , <footer></footer>
+•	A high level structure of the HTML page goes below : 
+<html>
+	<body>
+		<header>
+			<nav>
+</nav>
+		</header>
+		<main>
+			<article>
+				[
+					<section>
+					</section>
+					<aside>
+					</aside>
+]
+			</article>
+		</main>
+		<footer>
+			<nav>
+			</nav>
+		</footer>
+	</body>
+</html>
+•	Time and date : <time></time>. In this tag we can only specify time & date data. There is one “pubdate” attribute which is unique to a page. There can be only one time element in the page with pubdate attribute which mainly says the formal publication date of the webpage.
+•	<figure> and <figcaption> elements: if we put an image inside the <figure> element and writes a caption for the same inside the <figcaption> element it helps the search engine to find out more about the image inside the <figure> element.
+•	<details> tag: <details> tag helps to add a little interactivity to page without using JavaScript. If we have one <summary> tag inside the <details> tag, we can expand the block and see the summary. Ah! A really nice way of adding simple interaction.
+<details>
+	<summary>
+		events
+	</summary>
+</details>
+•	<mark> element:
+•	<bdi> element
+•	<wbr> element
+•	<output element:
+•	<embed> element:
+•	<canvas> element:
+•	<meter> element:
+•	<progress> element:
+•	<math> element: MathML components.
+•	<input> elements & <datalist> elements : <datalist> is basically the dropdown.
+•	Interaction, Events & Messaging API: Battery Status, Clipboard API & Events, Cross Document Messaging, Device & Screen orientation, Fullscreen, Geolocation, Media Capture, notification API, Touch events, Vibration.
+
+
+<b>CSS Pointers</b>	
+
+•	Selectors : Best article link - https://www.w3.org/TR/css3-selectors/#selectors
+•	Combinators in Selectors: A Selector is a sequence of Simple selectors delimited by combinators. Combinators include Descendant combinators (div ul li), child combinators (div > ul > li) & sibling combinators (+, ~). Sibling combinators include Adjacent Sibling combinators (+), General Sibling combinators (~).
+•	Specificity : https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+Inline Styles – 1000, #id(s) – 100, .class(es)/attributes/pseudo-classes – 10, element/pseudo-elements – 1
+Attribute selectors: EL[attr=value] - p[foo=fooValue]. One more e.g. is span[hello="Cleveland"][goodbye="Columbus"] - Multiple attribute selectors can be used to represent several attributes of an element, or several conditions on the same attribute. Here, the selector represents a span element whose hello attribute has exactly the value "Cleveland" and whose goodbye attribute has exactly the value "Columbus”. For more go here - https://www.w3.org/TR/css3-selectors/#attribute-selectors
+•	A very good example of getting right signs a in a list box after one gets selected- 
+
+  
+
+•	Nth-type pseudo class tester tools- This is a very handy tool to test nth-child/nth-type pseudo classes in CSS - https://css-tricks.com/examples/nth-child-tester/
+•	Inheritance : https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/
+
+
+
+
+<b>JavaScript & OOJS Pointers</b>
+
+•	Lexical Scope: Only function blocks create lexical scopes in JavaScript. If statement/ While statements don’t create lexical scopes.
+•	Execution Context: Gets created when the JavaScript runs. For each function call a separate execution context is created.
+•	Keyword “this” works differently: “this” keyword works differently in case of Arrow functions in ES6 and normal function in old school JavaScript. For more refer to this pen - https://codepen.io/Asaha5/pen/RxZwEd?editors=0012
+•	New : need to study new keyword
+•	Prototype Chain: Check this pen - https://codepen.io/Asaha5/pen/opeXzx?editors=0012
+•	Object Decorator Pattern : Check this pen  - https://codepen.io/Asaha5/pen/BJdoPX?editors=0012
+•	Prototypal Classes : Check this pen - https://codepen.io/Asaha5/pen/LejZGj?editors=0012
+•	Pseudoclassical pattern: Check this pen - https://codepen.io/Asaha5/pen/LejRdo?editors=0012
+•	Superclass & Subclasses using the Functional pattern : Check this - https://codepen.io/Asaha5/pen/RxZGma?editors=0011
+•	Pseudoclassical Subclasses : Check this pen - https://codepen.io/Asaha5/pen/pprNJZ?editors=0012
+•	
